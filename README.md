@@ -1,2 +1,10 @@
-# one-city-weather-archive
-Shows archive of temperature and humidity of one city
+# Архив метеослужбы
+
+Показывает архив температуры и осадков в одном городе.
+
+Запуск приложения:
+```
+npm i && npm run start
+```
+
+После этого приложение будет доступно на 8001 порту.

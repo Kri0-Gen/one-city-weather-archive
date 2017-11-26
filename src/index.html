@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<meta charset="UTF-8">
+<title>Архив метеослужбы</title>
+<link rel="stylesheet" href="/index.css">
+<body>
+    <div class="app">
+        <h3 class="title">Архив метеослужбы</h3>
+        <div class="main">
+            <div class="sidebar">
+                <div class="sidebar__item">
+                    <input type="radio" name="chart" value="temperature" id="temperature" checked/>
+                    <label for="temperature">Температура</label>
+                </div>
+                <div class="sidebar__item">
+                    <input type="radio" name="chart" value="precipitation" id="precipitation"/>
+                    <label for="precipitation">Осадки</label>
+                </div>
+            </div>
+            <div class="content">
+                <div class="content__period">
+                    <select id="from"></select>
+                    <select id="to"></select>
+                </div>
+                <div class="content__canvas">
+                    <canvas id="canvas"></canvas>
+                    <div class="content__spin"></div>
+                    <div class="content__no-data">
+                        Для текущих параметров не найдено данных.
+                        Пожалуйста, уточните запрос.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/index.js"></script>
+</body>
+</html>

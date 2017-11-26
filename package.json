@@ -1,0 +1,17 @@
+{
+  "name": "one-city-weather-archive",
+  "version": "0.0.1",
+  "description": "Shows archive of temperature and humidity of one city",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Kri0-Gen/one-city-weather-archive.git"
+  },
+  "scripts": {
+    "start": "NODE_PORT=8001 node server.js"
+  },
+  "private": true,
+  "dependencies": {
+    "compression": "^1.7.1",
+    "express": "^4.16.2"
+  }
+}
